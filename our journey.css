@@ -1,0 +1,226 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body{
+font-family: Century Gothic;
+background: #0f292f;
+}
+nav{
+background: #14A098;
+height: 80px;
+width: 100%;
+}
+label.logo{
+	position: relative;
+	-webkit-text-stroke: 1px #CCCCCC;
+color: #14a098;
+font-size: 40px; 
+line-height: 80px;
+padding: 0 100px;
+
+}
+nav ul{
+float: right;
+margin-right: 20px;
+}
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 5px
+}
+nav ul li a{
+color: #CCCCCC;
+font-size: 17px;
+padding: 7px 13px;
+border-radius: 3px;
+text-transform: uppercase;
+}
+a.active,a:hover{
+background: #14363e;
+transition: .5s;
+}
+.checkbtn{
+font-size: 30px;
+color: #CCCCCC;
+floar: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
+display: none;
+}
+#check{
+display: none;
+}
+@media (max-width: 952px){
+label.logo{
+	
+	-webkit-text-stroke: 0.3vw #CCCCCC;
+font-size: 30px;
+}
+nax ul li a{
+font-size: 16px;
+}
+}
+@media (max-width: 858px){
+.checkbtn{
+display: block;
+}
+ul{
+position: fixed;
+width: 100%;
+height: 100vh;
+background: #0f292f;
+top: 80px;
+left: -100%;
+text-alligh: center;
+transition: all .5s;
+}
+nav ul li{
+display: block;
+margin: 50px 0;
+line-height: 30px;
+}
+nav ul lia{
+font-size 20px;
+}
+a:hover,a.active{
+background: none;
+color: #CCCCCC;
+}
+#check: checked ~ ul{
+left: 0;
+}
+}
+section{
+background-color:#0f292f;
+background-size: cover;
+height: calc(100vh - 80px);
+}
+p4 {
+background:#501f3a;
+color: white;
+padding: 50px;
+margin: 20px;
+font-size: 30px;
+}
+p {
+background:#CB2D6F;
+color: white;
+padding: 100px;
+margin: 15px;
+font-size: 30px;
+}
+
+n1 {
+margin-left: 20px;
+font-size: 20px;
+color: #CCCCCC;
+
+n2 {
+	font-size: 10px;
+	margin-left: 20px;
+	font-style: Quicksand;
+	color: #CCCCCC;
+}
+m {
+	 margin-left: 100px;
+	 margin-right: 100p;
+	 border: 20px;
+	 border-color: #0f292f;
+}
+---------
+p1{
+	width: 1000px;
+	height: 500px;
+}
+l1{
+	text-color: #CCCCCC;
+	font-size: 20px;
+	font-family: Century Gothic;
+}
+-------
+header,footer{
+	position: absolute;
+	background-colo: #0f292f
+	width: 100%;
+	color: #CCCCCC;
+}
+header h2{
+	position: absolute;
+	margin-top: 20px;
+	left: 20%;
+}
+header{
+	height: 10vh;
+}
+footer{
+	height: 15vh;
+	bottom: 0;
+}
+footer h2{
+	position: absolute;
+	left: 45%;
+}
+.nav{
+	position: absolute;
+	width: 100%;
+}
+.nav a{
+	position: relative;
+	left: 45%;
+	top: 20px;
+	color: #CCCCCC;
+	text- decoration: none;
+	margin-right: 20px;
+}
+-----------
+ic{
+	font-size: 20px;
+	color: #CCCCCC;
+}
+f4{
+	font-size: 25px;
+}
+f5 {
+	font-color: #CCCCCC;
+}
+w1{
+	font-color: #CCCCCC;
+}
+.banner-card{
+	position: relative;
+}
+.banner-card img
+
+.banner-text{
+	position: absolute;
+	top:25%
+	color: #CCCCCC;
+	padding : 20px;
+}
+.banner-text b4{
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+-------------
+.container{
+	margin: 150px auto;
+	width: 50$;
+	padding: 8px;
+}
+img{
+	float: left;
+	width: 300px;
+	height : 260;
+	padding: 0 10px 0 0;
+}
+.text{
+	text-allign: justify;
+	font-family: cantury gothic;
+}
